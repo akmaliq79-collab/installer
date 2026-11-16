@@ -1,0 +1,3 @@
+Facebook, com.facebook.katana
+Instagram, com.instagram.android
+WhatsApp, com.whatsapp
