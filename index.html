@@ -1,0 +1,16 @@
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body style="font-family:sans-serif;padding:12px">
+<div id="list"></div>
+<script>
+fetch('apps.txt?'+Date.now()).then(r=>r.text()).then(t=>{
+ let h='';
+ t.split('\n').forEach(l=>{
+  l=l.trim(); if(!l) return;
+  const [n,p]=l.split(',');
+  h+=`<p style="font-size:20px">${n.trim()}
+  <a href="market://details?id=${p.trim()}"
+  style="float:right;background:#0a7;color:#fff;padding:10px 20px;text-decoration:none">Install</a></p><hr>`;
+ });
+ document.getElementById('list').innerHTML=h;
+});
+</script>
