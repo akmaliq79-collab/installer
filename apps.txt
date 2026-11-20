@@ -1,3 +1,4 @@
+# SOCIAL MEDIA APPS
 WhatsApp, com.whatsapp
 WhatsApp Business, com.whatsapp.w4b
 Facebook, com.facebook.katana
@@ -6,20 +7,22 @@ Instagram, com.instagram.android
 X, com.twitter.android
 Snapchat, com.snapchat.android
 Adobe Acrobat, com.adobe.reader
-ChatGbt, com.openai.chatgpt
+# GOOGLE APPS
 Google Docs, com.google.android.apps.docs.editors.docs
 Google Sheets, com.google.android.apps.docs.editors.sheets
 Google Keyboard, com.google.android.inputmethod.latin
 Google Phone, com.google.android.dialer
 Google Contacts, com.google.android.contacts
 Google Messages, com.google.android.apps.messaging
-Google Gemini, com.google.android.apps.bard
-NotebookLM, com.google.android.apps.labs.language.tailwind
+AI APPS
 ChatGbt, com.openai.chatgpt
+Google Gemini, com.google.android.apps.bard
 Claude, com.anthropic.claude
 Grok, ai.x.grok
+NotebookLM, com.google.android.apps.labs.language.tailwind
 Manus, tech.butterfly.app
 DeepSeek, com.deepseek.chat
+OTHERS APPS
 JazzCash, com.techlogix.mobilinkcustomer
 Easypaisa, pk.com.telenor.phoenix
 Samosa, com.getsamosa
